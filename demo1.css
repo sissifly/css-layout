@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  position: fixed;
+  top:0;
+  width: 100%;
+  text-align: center;
+  background-color: #cccccca6;
+  height: 100px;
+}
+.content{
+  position: absolute;
+  top:100Px;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #cccccca6;
+  height: 100px;
+}
