@@ -3,23 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 .header{
-  position: fixed;
-  top:0;
   width: 100%;
   text-align: center;
   background-color: #cccccca6;
   height: 100px;
 }
 .content{
-  position: fixed;
-  top:100Px;
-  bottom: 100px;
-  overflow: auto;
+    overflow: scroll;
+    flex: 1;
 }
 .footer{
-  position: fixed;
-  bottom: 0;
   width: 100%;
   text-align: center;
   background-color: #cccccca6;
